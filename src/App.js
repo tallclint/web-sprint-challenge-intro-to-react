@@ -2,7 +2,8 @@ import React,{ useState, useEffect } from 'react';
 import './App.css';
 import axios from 'axios'
 import Character from '../src/components/Character'
-
+import data from './mocks/handlers.js'
+export const BASE_URL = "https://swapi.dev/api/people"
 
 const App = () => {
   const [items, setItems] =useState([])
@@ -26,7 +27,7 @@ const App = () => {
   return (
     <div className="App">
   
-      <h1 className="Header">Start Wars Major Characters List</h1>
+      <h1 className="Header">Star Wars Major Characters List</h1>
      <Character items ={items}/>
     </div>
   );
