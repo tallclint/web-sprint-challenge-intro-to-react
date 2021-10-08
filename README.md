@@ -1,4 +1,4 @@
-# Intro to React Sprint Challenge
+# Intro to React Sprint Challenge Clint Stewart
 
 **Read these instructions carefully. Understand exactly what is expected _before_ starting this Sprint Challenge.**
 
